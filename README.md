@@ -1,1 +1,3 @@
 # kalkulatorBryly
+
+robione dla zabawy

@@ -1,0 +1,17 @@
+﻿<Window x:Class="KalkulatorBryly.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KalkulatorBryly"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="700" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel Orientation="Horizontal" Height="35" VerticalAlignment="Top">
+            <Button x:Name="Bszescian" Content="Sześcian" MinWidth="100" Click="Bszescian_Click"/>
+            <Button x:Name="Bmoneta" Content="Moneta" MinWidth="100" Margin="10,0,0,0" Click="Bmoneta_Click_1"/>
+        </StackPanel>
+        <Frame x:Name="Ramka" Margin="0, 35, 0, 0" NavigationUIVisibility="Hidden"/>
+
+    </Grid>
+</Window>
